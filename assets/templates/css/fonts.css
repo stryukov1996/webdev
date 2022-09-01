@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "PTRootUI";
+	src: url(../fonts/PTRootUI_Regular.otf) format("opentype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "PTRootUI-M";
+	src: url(../fonts/PTRootUI_Medium.otf) format("opentype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "PTRootUI-B";
+	src: url(../fonts/PTRootUI_Bold.otf) format("opentype");
+	font-display: swap;
+}

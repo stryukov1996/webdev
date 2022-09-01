@@ -1,0 +1,832 @@
+html {
+    font-size: 18px;
+    line-height: 30px;
+}
+body {
+    background: #f5f5f5;
+    font-family: 'PTRootUI';
+    color: #333333;
+    font-weight: normal;
+    font-style: normal;
+    overflow-x: hidden; 
+}
+body * {
+    outline: none !important; 
+}
+a, svg, path, rect, circle, button, span, ::before, ::after {
+    transition: 0.5s ease; 
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+button {
+    border-radius: 0;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: inherit; 
+}
+.header {
+    padding-top: 30px;
+}
+.header-nav ul {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline-start: 0;
+    margin-bottom: 0;
+}
+.header-nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+    font-size: 18px;
+}
+.block-contacts {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.phone {
+    font-weight: 600;
+    font-size: 24px;
+    display: block;
+}
+.social {
+    margin-right: 8px;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+    font-size: 64px;
+}
+h4 {
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+    font-size: 32px;
+}
+.callback {
+    background: #F30D0C;
+    padding: 15px 40px;
+    color:white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+    font-size: 18px;
+}
+.top-banner .main-banner {
+    padding: 120px;
+    border-radius: 25px;
+    height: 742px;
+    background: url('../img/back.png') no-repeat; 
+    background-size: cover;
+}
+.top-banner-right img {
+    width: 150px;
+    height: 150px;
+}
+.main-banner h2 {
+    margin-bottom: 30px;
+}
+.main-banner h4 {
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+.section {
+    padding: 75px 0;
+}
+
+.about-right h4 {
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+    margin-bottom: 20px;
+}
+.strong {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+}
+.about-right .strong {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+}
+.about-text {
+    margin-bottom: 30px;
+}
+
+.infographika-container {
+    background: url('../img/map.png') no-repeat center center;
+    background-size: contain;
+    height: 522px;
+}
+.infographika-item .infographika-item__number {
+    font-size: 47.5px;
+    color:#84CC42;
+    font-weight: 500;
+font-family: "PTRootUI-M";
+    display: block;
+}
+.infographika-item .infographika-item__text {
+    font-weight: 500;
+font-family: "PTRootUI-M";
+}
+
+ul.list-check {
+    padding-left: 0;
+}
+ul.list-check li {
+    padding-left: 35px;
+    list-style: none;
+    background: url('../img/marker.png') no-repeat 0 5px;
+    margin-bottom: 20px;
+    /* list-style-image: url('../img/marker.png'); */
+}
+ul.list-check li:last-child {
+    margin-bottom: 0;
+} 
+.crmsystem-left h2 {
+    margin-bottom: 60px;
+}
+.crmsystem-video {
+    display: flex;
+    align-items: center;
+    border: 3px solid #84CC42;
+    border-radius: 17px;
+    padding: 2px 20px 2px 2px;
+    background: white;
+    width: 480px;
+}
+.crmsystem-video img {
+    margin-right: 20px;
+    width: 124px;
+}
+.crmsystem-video__item p {
+    margin-bottom: 0;
+}
+.crmsystem-right {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 480px;
+}
+
+.crmservice h2 {
+    margin-bottom: 30px;
+}
+.crmservice-right {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 605px;
+}
+.crmservice-text {
+    margin-bottom: 30px;
+}
+.crmservice-text p:last-child {
+    margin-bottom: 0;
+}
+.crmservice-video {
+    display: flex;
+    align-items: center;
+    border: 3px solid #84CC42;
+    border-radius: 17px;
+    padding: 2px 20px 2px 2px;
+    background: white;
+    width: 400px;
+}
+.crmservice-video img {
+    margin-right: 20px;
+    width: 100px;
+}
+.crmservice-video__item p {
+    margin-bottom: 0;
+}
+
+.advantages__item span {
+    font-size: 128px;
+    color:#84CC42;
+}
+.advantages__item p {
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+}
+.advantages .quotes {
+    background-color: #3D8031 !important;
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    background: url('../img/quotes.png') no-repeat center right 30px; 
+    background-size: contain;
+}
+.advantages h2 {
+    margin-bottom: 30px;
+}
+.quotes p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+}
+
+.warranty .warranty-item {
+    margin-top: 50px;
+}
+.warranty-item img {
+    width: 85px;
+}
+.warranty-item span {
+    display: block;
+    font-weight: 500;
+font-family: "PTRootUI-M";
+    margin-top: 25px;
+    padding-right: 30px;
+}
+
+.package-left strong, .package-green strong {
+    font-size: 24px;
+}
+.package-left {
+    padding-right: 78px;
+}
+.package-text {
+    margin-bottom: 30px;
+}
+.package h2 {
+    margin-bottom: 30px;
+}
+.package-green {
+    background-color: #3D8031 !important;
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    margin-top: 36px;
+    background: url('../img/surprize.png') no-repeat center right 30px;
+    background-size: contain;
+}
+.package-green p:last-child {
+    margin-bottom: 0;
+}
+
+.conditions h2 {
+    margin-bottom: 20px;
+}
+.franchise {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.franchise-price {
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+    font-size: 47px;
+}
+.franchise-text {
+    font-size: 19px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+}
+.payback {
+    margin-bottom: 5px;
+}
+.payback, .royalties {
+    font-size: 24px;
+}
+.conditions-zayzvka {
+    display: flex;
+    align-items: center;
+    border: 3px solid #84CC42;
+    border-radius: 17px;
+    padding: 20px;
+    background: white;
+    margin-bottom: 15px;
+}
+.conditions-zayzvka p {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+}
+.conditions .phone {
+    font-size: 36px;
+}
+
+.footer {
+    padding:30px 0;
+}
+.footer .container {
+    background: #F1F1F1;
+    border-radius: 30px;
+    padding: 60px 60px 30px 60px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-menu ul li a {
+    font-size: 14px;
+    font-weight: 500;
+font-family: "PTRootUI-M";
+}
+.footer-white {
+    display: flex;
+    align-items: center;
+    border: 3px solid #84CC42;
+    border-radius: 17px;
+    padding: 0 20px 0 0;
+    background: white;
+}
+.footer-white img {
+    margin-right: 18px;
+    width: 140px;
+}
+.footer-white-item p {
+    font-weight: 700;
+font-family: "PTRootUI-B";
+    margin-bottom: 6px;
+}
+.footer-hr {
+    background: rgba(0, 0, 0, 0.5);
+    margin:30px 0;
+}
+.copyright, .privacy {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "PTRootUI-M";
+}
+
+.modal-body {
+    font-size: 24px;
+}
+.modal .modal-dialog {
+    max-width: 690px;
+}
+.modal-header {
+    margin-bottom: 30px;
+}
+.modal-title {
+    margin-bottom: 0;
+}
+.modal-content {
+    padding: 90px;
+}
+.form input {
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: 600;
+}
+.form .submit {
+    background: #3D8031;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "PTRootUI-B";
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+.burger-menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    left:-100%;
+    /* transition-duration: .5s; */
+    height: calc(100% - 100px);
+}
+.burger-menu.open {
+    left:0%;
+    transition-duration: .5s;
+}
+.burger-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.burger-menu ul li {
+    padding-bottom: 15px;
+}
+.burger-menu ul li:last-child {
+    padding-bottom: 0;
+}
+.burger-menu ul li a {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PTRootUI-B';
+}
+
+@media (min-width: 1520px){
+    .crmsystem .crmsystem-left {
+        padding-right: 100px;
+    }
+    .conditions .conditions-left {
+        padding-right: 78px;
+    }
+    .privacy a:first-child {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 1519.98px){
+    h2 {
+        font-size: 50px;
+    }
+    .header-nav ul li a {
+        font-size: 15px;
+    }
+    .phone {
+        font-size: 22px;
+    }
+    .top-banner .main-banner {
+        height: 587px;
+        padding: 100px;
+    }
+    .about-left img {
+        width: 100%;
+    }
+    .strong {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .infographika-item .infographika-item__number {
+        font-size: 36px;
+    }
+    .crmsystem-right {
+        height: 380px;
+    }
+    .crmsystem-video {
+        padding: 2px 10px 2px 2px;
+        width: 435px;
+    }
+    .crmsystem-video img {
+        margin-right: 8px;
+        width: 100px;
+    }
+    .crmsystem-left h2 {
+        margin-bottom: 30px;
+    }
+    .crmservice-video {
+        padding: 2px 10px 2px 2px;
+        width: 390px;
+    }
+    .crmservice-right {
+        height: 486px;
+    }
+    ul.list-check li {
+        margin-bottom: 10px;
+    }
+    .package-green {
+        margin-top: 18px;
+        padding: 25px;
+    }
+    .conditions-right img {
+        width: 100%;
+    }
+    .franchise-price {
+        font-size: 40px;
+    }
+    .payback, .royalties {
+        font-size: 20px;
+    }
+    .conditions .phone {
+        font-size: 30px;
+    }
+    .footer .container {
+        padding: 30px;
+    }
+    .footer-menu {
+        justify-content: space-between;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .footer-white-item p {
+        font-size: 15px;
+    }
+    .footer-white img {
+        margin-right: 10px;
+        width: 100px;
+    }
+    .footer-white .callback {
+        padding: 5px 20px;
+    }
+    .privacy a {
+        display:block;
+    }
+    .modal-content {
+        padding: 50px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .header-nav ul li a {
+        font-size: 13px;
+    }
+    .phone {
+        font-size: 17px;
+    }
+    .top-banner .main-banner {
+        height: 493px;
+        padding: 50px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    .strong {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    html {
+        font-size: 14px;
+    }
+    .section {
+        padding: 40px 0;
+    }
+    .infographika-item .infographika-item__number {
+        font-size: 30px;
+    }
+    .infographika-container {
+        height: 375px;
+    }
+    .crmsystem-video {
+        width: 350px;
+    }
+    .crmsystem-video img {
+        width: 80px;
+    }
+    .crmsystem-right {
+        height: 320px;
+    }
+    .crmservice-video img {
+        width: 80px;
+    }
+    .crmservice-video {
+        width: 350px;
+    }
+    .crmservice-right {
+        height: 410px;
+    }
+    .modal-header svg {
+        width: 40px;
+    }
+    ul.list-check li {
+        background: url(../img/marker.png) no-repeat 0 0px;
+    }
+    .franchise-price {
+        font-size: 38px;
+    }
+    .conditions .phone {
+        font-size: 26px;
+    }
+    .footer-white-item p {
+        font-size: 12px;
+    }
+    .footer-white img {
+        margin-right: 8px;
+        width: 80px;
+    }
+    .footer-menu ul li a {
+        font-size: 13px;
+    }
+}
+@media (min-width: 992px) {
+    .infographika-container .row {
+        margin-top: 75px;
+    }
+    .crmsystem-right-mob {
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+    .infographika-container .row {
+        margin-top: 25px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .about-right h4 {
+        font-size: 32px;
+    }
+    .strong {
+        font-size: 18px;
+    }
+    .top-banner .main-banner {
+        background-position: 50% 50%;
+    }
+    .burger-button svg {
+        cursor: pointer;
+    }
+    .about-text {
+        margin-top: 20px;
+    }
+    .infographika-container {
+        height: unset;
+    }
+    .crmsystem .crmsystem-right {
+        margin-top: 30px;
+    }
+    .crmsystem-video {
+        background: #84CC42;
+        border:none;
+        border-radius: 45px;
+        color:white;
+        padding: 4px 10px 4px 4px;
+    }
+    .crmsystem-right-mob {
+        display: inline-flex;
+        width: 73px;
+        background: #a9db7b;
+        height: 73px;
+        border-radius: 73px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+    .crmsystem-video__item {
+        width: calc(100% - 88px);
+    }
+    .crmsystem-video__item p {
+        font-size: 12px;
+    }
+    .crmsystem-video img {
+        display: none;
+    }
+    .crmservice .crmservice-right {
+        margin-top: 30px;
+    }
+    .crmservice-video {
+        border: none;
+        justify-content: center;
+        padding: 0;
+    }
+    .crmservice-video > img {
+        display: none;
+    }
+    .crmservice-video__item {
+        text-align: center;
+    }
+    .advantages .quotes {
+        padding: 20px;
+        background: url(../img/quotes.png) no-repeat center right 15px;
+        background-size: 50% 100%;
+    }
+    h2 br {
+        display: none;
+    }
+    .warranty .warranty-item {
+        margin-top: 30px;
+    }
+    .package .package-right {
+        margin-top: 30px;
+    }
+    .package-green {
+        padding: 20px 50px 20px 20px;
+        background: url(../img/surprize.png) no-repeat center right -10px;
+        background-size: contain;
+    }
+    .franchise-text {
+        font-size: 14px;
+    }
+    .franchise-price {
+        font-size: 32px;
+    }
+    .payback, .royalties {
+        font-size: 18px;
+    }
+    .conditions .phone {
+        font-size: 32px;
+        font-family: "PTRootUI-B";
+    }
+    .footer-menu {
+        display: block;
+    }
+    .footer-menu ul {
+        margin-bottom: 0;
+    }
+    .footer .system-gruz {
+        margin: 30px 0;
+    }
+    .footer .block-contacts {
+        justify-content: end;
+    }
+    .footer .phone {
+        font-size: 24px;
+    }
+    .footer .container {
+        padding: 20px;
+    }
+    .footer-white {
+        border:none;
+        padding: 20px;
+    }
+    .footer-white img {
+        display: none;
+    }
+    .footer-white-item p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-white .callback {
+        padding: 15px 40px;
+        width: 100%;
+    }
+    .privacy {
+        line-height: 2;
+        margin: 8px 0;
+    }
+    .modal-content {
+        padding: 30px 20px;
+    }
+    .modal-header svg {
+        width: 30px;
+    }
+    .modal-body .strong {
+        font-size: 14px;
+    }
+    .form input {
+        font-size: 18px;
+    }
+    .modal .modal-content {
+        border-radius: 15px;
+    }
+}
+@media (max-width: 767.98px) {}
+@media (max-width: 575.98px) {
+    .top-banner .main-banner {
+        background: url(../img/741.png) no-repeat;
+        background-position: 50% 40%;
+        background-size: cover;
+        height: 600px;
+    }
+    .infographika-container {
+        background: url(../img/map.png) no-repeat center center;
+        background-size: 180%;
+        background-position: 0% 60%;
+    }
+    .phone {
+        font-size: 16px;
+    }
+    .block-contacts {
+        justify-content: center;
+    }
+    .main-banner h4 {
+        line-height: 1.3;
+    }
+    .section.top-banner .container, .footer .container {
+        width: 96%;
+    }
+    .burger-button {
+        padding-left:0 !important;
+    }
+    .crmservice-video__item > img {
+        width: 125px;
+        margin-right: 0;
+    }
+    .advantages__item span {
+        font-size: 40px;
+    }
+    .advantages h2 {
+        margin-bottom: 20px;
+    }
+    .advantages .quot {
+        width: 100%;
+        margin: 30px auto 0;
+    }
+    
+}
+@media (max-width: 400px) {
+    .crmservice-right {
+        height: 360px;
+    }
+}
+@media (max-width: 385px) {
+    .top-banner .main-banner {
+        padding: 30px;
+    }
+}
+@media (max-width: 360px) {
+    .package-green {
+        padding: 20px;
+    }
+}
